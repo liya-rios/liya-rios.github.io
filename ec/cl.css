@@ -1,27 +1,19 @@
-
-img
+:root
 {
-    height: 100px;
+    --uncblue: rgb(1,45,91);
+    --uncgold: rgb(254,189,54);
+    --uncgray: rgb(235,235,235);
 }
-table, th
+body
 {
-    border: 3px solid black;
-    border-collapse: collapse;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: var(--uncblue);
+    color: var(--uncgold);
 }
-td
+a
 {
-    border: 1px dotted black;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
+    color: var(--uncgold);
 }
-#headerrow
+#leftbar
 {
-    background-color: lavender;
-}
-.list
-{
-    text-align: left;
+    background-color: var(--uncgray);
 }
